@@ -14,6 +14,10 @@ let month = 1 + date.getMonth();
 let year = date.getFullYear();
 
 const months = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+var today = new Date();
+
+current_date.innerText=`Today's Date is : ${today.toLocaleDateString('en-US')}`;
+
 function validate() {
   const inputs = document.querySelectorAll("input");
   let validator = true;

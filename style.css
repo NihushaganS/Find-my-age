@@ -91,6 +91,15 @@ input::placeholder{
 small{
   color: red;
 }
+.txt-date {
+  font-family: "Poppins", sans-serif, cursive;
+  font-size: 2rem;
+  font-weight: 800;
+  font-style: italic;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 15%;
+}
 
 @media screen and (max-width:600px) {
   .card{
@@ -119,5 +128,8 @@ small{
   }
   .output h1{
       font-size: 3.5rem;
+  }
+  .txt-date {
+    font-size: 1rem;
   }
 }
